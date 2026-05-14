@@ -1,0 +1,9 @@
+DogusCarCompany/
+│
+├── Automobile.h
+├── Automobile.cpp
+├── InternalCombustionCar.h
+├── ElectricCar.h
+├── main.cpp
+
+g++ main.cpp Automobile.cpp -o carsystem
