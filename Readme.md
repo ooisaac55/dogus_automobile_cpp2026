@@ -1,44 +1,79 @@
-Features of the Project
+# 🚗 Dogus Car Company Management System
 
-This project is designed using Object Oriented Programming (OOP) concepts in C++.
+A C++ Object Oriented Programming (OOP) project designed for managing automobile records in a car company system.
 
-Main Concepts Used
-Classes and Objects
-Inheritance
-Polymorphism
-Virtual Functions
-Encapsulation using private/public access modifiers
-Static Variables
-Pointers
-Getter and Setter Functions
-Arrays
-Functions
-Conditional Statements
-Exception Handling
-iomanip library with setw()
+This project demonstrates core OOP concepts such as inheritance, polymorphism, encapsulation, virtual functions, pointers, static variables, getters/setters, exception handling, and formatted console output using `iomanip`.
 
+---
 
-UML Design Idea
-Base Class: Automobile
+# 📌 Project Overview
 
-Attributes:
+The system allows employees of Dogus Car Company to:
 
-Brand
-Model
-Year
-Color
-Mileage
-Gear Type
-Door Number
-Tire Number
-Engine Type
-Employee Name
-Note/Comment
-Car Condition (New/Old)
+- Add new cars into the system
+- Display all available cars
+- Search cars using specific attributes
+- Update car notes/comments
+- Display cars registered by a specific employee
+- Display cars with notes/comments
+- Store data permanently using CSV/database-style storage
 
+The system supports:
 
-Functions:
+- Internal Combustion Engine Cars
+  - Petrol
+  - Diesel
+  - Gas
+- Electric Cars
 
+---
+
+# 🧠 OOP Concepts Used
+
+This project was developed using the following C++ Object Oriented Programming concepts:
+
+- Classes and Objects
+- Inheritance
+- Polymorphism
+- Virtual Functions
+- Encapsulation using private/public access modifiers
+- Static Variables
+- Pointers
+- Getter and Setter Functions
+- Arrays
+- Functions
+- Conditional Statements
+- Exception Handling
+- `iomanip` library with `setw()`
+
+---
+
+# 🏗 UML Design Idea
+
+## Base Class: `Automobile`
+
+### Attributes
+
+| Attribute | Description |
+|---|---|
+| Brand | Car brand name |
+| Model | Car model |
+| Year | Manufacturing year |
+| Color | Car color |
+| Mileage | Car mileage |
+| Gear Type | Manual or Automatic |
+| Door Number | Number of doors |
+| Tire Number | Number of tires |
+| Engine Type | Petrol/Diesel/Gas/Electric |
+| Employee Name | Employee who registered the car |
+| Note/Comment | Employee note |
+| Car Condition | New or Old |
+
+---
+
+## Functions
+
+```cpp
 inputCar()
 printInfo()
 getColor()
@@ -49,13 +84,3 @@ getYear()
 getEmployee()
 getNote()
 setNote()
-
-
-Derived Classes
-1. InternalCombustionCar
-Petrol
-Diesel
-Gas
-
-2. ElectricCar
-Battery Electric Cars
